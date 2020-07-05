@@ -1,0 +1,16 @@
+{
+    "name": "Copy title and url",
+    "version": "0.1",
+    "description": "Copies title and url",
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_title": "Copy Title and URL"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+  }
